@@ -14,4 +14,8 @@ elif operator=="%":
     print(First_number%second_number)
 else:
     print("invaild operation ")
+except ValueError:
+    print("Invalid input! Please enter numeric values.")
+except ZeroDivisionError:
+    print("Error! Division by zero is not allowed.")
 print("Thanks you for your visit")
